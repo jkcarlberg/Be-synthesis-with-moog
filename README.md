@@ -2,7 +2,7 @@
 This respository contains the files and instructions you need to modify MOOG in order to reproduce the spectral synthesis calculations in Carlberg et al. (2018).  The full MOOG code can be obtained from Chris Sneden's [MOOG website](http://www.as.utexas.edu/~chris/moog.html). The modifications have been made to the 2014 source code.
 
 ## Instructions for modifying MOOG
-Three of the existing MOOG subroutines must be replaced with the versions in this repository. They are:
+Four of the existing MOOG subroutines must be replaced with the versions in this repository. They are:
 1. **Atmos.com** - increased the dimensions of 'numdems' variable increased numdens's dimensions
 2. **Inmodel.f** - include CH/NH in the numdens variable, also fixed definition of numdens for elements NOT controlled by molecular equilibrium (true when molset=0)
 3. **Kappa.com**  - adds the new opacity variablestoin the global variable domain
