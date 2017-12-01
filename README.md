@@ -1,4 +1,4 @@
-#README
+# README
 This respository contains the files and instructions you need to modify MOOG in order to reproduce the spectral synthesis calculations in Carlberg et al. (2018).  The full MOOG code can be obtained from Chris Sneden's [MOOG website](http://www.as.utexas.edu/~chris/moog.html). The modifications have been made to the 2014 source code.
 
 ## Instructions for modifying MOOG
