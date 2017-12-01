@@ -8,8 +8,6 @@ Four of the existing MOOG subroutines must be replaced with the versions in this
 3. **Kappa.com**  - adds the new opacity variablestoin the global variable domain
 4. **Opacit.f** - calls the new CH/NH opacity calculation subroutine and adds results to total opacity. Prints out the new opacities to stdout (atmosphere = 2 in driver file)
 
-The new edits should be marked with with my initials (JKC) in the source code. 
-
 One new code (Opacmoled.f) must be added to the list of compiled files. This code contains the tables of molecular dissociation opacities for CH and NH and will calculate the appropriate opacity for a given atmosphere layer by interpolating the values in the table.
 
 To recompile MOOG with the new changes, the following steps are required in the Makefile that you are using:
